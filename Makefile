@@ -23,3 +23,7 @@ program5: prog.py
 program6: prog.php
 	@echo "Αυτό είναι το πρόγραμμα σε PHP"
 	@./prog.php
+
+clean:
+	@echo "Διαγράφω τα παραγόμενα αρχεία"
+	rm -fr program program2
