@@ -16,4 +16,4 @@ program5: prog.py
 	./prog.py
 
 program6: prog.php
-	php prog.php
+	./prog.php
